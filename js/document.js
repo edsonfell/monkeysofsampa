@@ -5,12 +5,7 @@ $(document).ready(function() {
         interval:4000   
     });
   $('.parallax').parallax();  
-    
-  $('.modal').modal();
-    
-  $("#mailBtn").click(function(){
-    $('#mailModal').modal('open');
-  });
-    
-  //$('#mailModal').modal();
+  
+  // executa a modal 
+  $('.modal-trigger').leanModal();
 });
