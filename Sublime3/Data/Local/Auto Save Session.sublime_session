@@ -17,15 +17,23 @@
 			{
 				"selected_items":
 				[
+					[
+						"con",
+						"container"
+					],
+					[
+						"margi",
+						"margin"
+					]
 				]
 			},
 			"buffers":
 			[
 				{
-					"file": "/C/Users/William Queiroz/Documents/Projetos de Desenvolvimento/monkeysofsampa/js/document.js",
+					"file": "/C/Users/William Queiroz/Documents/Projetos de Desenvolvimento/monkeysofsampa/index.html",
 					"settings":
 					{
-						"buffer_size": 247,
+						"buffer_size": 5559,
 						"encoding": "UTF-8",
 						"line_ending": "Windows"
 					}
@@ -34,16 +42,7 @@
 					"file": "/C/Users/William Queiroz/Documents/Projetos de Desenvolvimento/monkeysofsampa/css/style.css",
 					"settings":
 					{
-						"buffer_size": 969,
-						"encoding": "UTF-8",
-						"line_ending": "Windows"
-					}
-				},
-				{
-					"file": "/C/Users/William Queiroz/Documents/Projetos de Desenvolvimento/monkeysofsampa/index.html",
-					"settings":
-					{
-						"buffer_size": 4665,
+						"buffer_size": 1075,
 						"encoding": "UTF-8",
 						"line_ending": "Windows"
 					}
@@ -86,6 +85,7 @@
 			],
 			"file_history":
 			[
+				"/C/Users/William Queiroz/Documents/Projetos de Desenvolvimento/monkeysofsampa/js/document.js",
 				"/C/Users/5624655/Desktop/materialize/css/materialize.css",
 				"/C/Users/5624655/Desktop/materialize/index.html",
 				"/C/Users/5624655/Desktop/materialize/js/document.js",
@@ -139,84 +139,24 @@
 			"groups":
 			[
 				{
-					"selected": 1,
+					"selected": 0,
 					"sheets":
 					[
 						{
 							"buffer": 0,
-							"file": "/C/Users/William Queiroz/Documents/Projetos de Desenvolvimento/monkeysofsampa/js/document.js",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 247,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										247,
-										247
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-									"tab_size": 2,
-									"translate_tabs_to_spaces": true
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 2,
-							"type": "text"
-						},
-						{
-							"buffer": 1,
-							"file": "/C/Users/William Queiroz/Documents/Projetos de Desenvolvimento/monkeysofsampa/css/style.css",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 969,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										544,
-										544
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/CSS/CSS.sublime-syntax",
-									"tab_size": 2,
-									"translate_tabs_to_spaces": true
-								},
-								"translation.x": 0.0,
-								"translation.y": 180.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 0,
-							"type": "text"
-						},
-						{
-							"buffer": 2,
 							"file": "/C/Users/William Queiroz/Documents/Projetos de Desenvolvimento/monkeysofsampa/index.html",
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 4665,
+								"buffer_size": 5559,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										3792,
-										3792
+										609,
+										609
 									]
 								],
 								"settings":
@@ -226,7 +166,37 @@
 									"translate_tabs_to_spaces": true
 								},
 								"translation.x": 0.0,
-								"translation.y": 1174.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/C/Users/William Queiroz/Documents/Projetos de Desenvolvimento/monkeysofsampa/css/style.css",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 1075,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										1075,
+										1075
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/CSS/CSS.sublime-syntax",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 405.0,
 								"zoom_level": 1.0
 							},
 							"stack_index": 1,
