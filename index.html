@@ -27,15 +27,15 @@
                             <li>
                                 <img src="img/salto1.jpg">
                                 <div class="caption left-align">
-                                    <h3>Texto</h3>
-                                    <h5 class="light grey-text text-lighten-3">Texto Descrição</h5>
+                                    <h3></h3>
+                                    <h5 class="light grey-text text-lighten-3"></h5>
                                 </div>
                             </li>
                             <li>
                                 <img src="img/salto2.jpg">
                                 <div class="caption left-align">
-                                    <h3>Texto</h3>
-                                    <h5 class="light grey-text text-lighten-3">Texto Descrição</h5>
+                                    <h3></h3>
+                                    <h5 class="light grey-text text-lighten-3"></h5>
                                 </div>
                             </li>
                         </ul>
@@ -47,19 +47,45 @@
         <!--MODAL-->
         <div id="mailModal" class="modal">
             <div class="modal-content">
-                <h4>Contato</h4>
-                <p>A bunch of text</p>
-            </div>
-            <div class="modal-footer">
-                <a href="#!" class=" modal-action modal-close waves-effect waves-grey btn-flat">Agree</a>
+                <form name="formMail" action="enviarEmail" method="POST" class="form-horizontal">
+
+                    <div class="row">
+                        <div class="input-field col s12 m6 l6">
+                            <input type="email" name="emailfield" class="form-control white-text"/>
+                            <label>Seu E-mail</label>
+                        </div>
+
+                        <div class="input-field col s12 m6 l6">
+                            <input type="text" name="assuntofield" class="form-control white-text"/>       
+                            <label>Assunto</label>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="row input-field col s12 m12 l12">
+                            <textarea id="textarea" class="materialize-textarea textarea-color white-text"></textarea>
+                            <label for="textarea">Mensagem</label>  
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="form-group">
+                            <div class="col s6 m6 l6 center-align">
+                                <button type="submit" class="btn btn-primary" onclick="
+                                    sendEmail(); return false">Enviar</button>
+                            </div>
+                            <div class="col s6 m6 l6 center-align">
+                                <button type="reset" class="btn btn-primary">Limpar</button>                    
+                            </div>
+                        </div> 
+                    </div>
+                </form>
             </div>
         </div>
-        <!--MODAL-->
-
+        <!--FIM MODAL-->
         <!--BTN PARA MODAL-->
         <div class="fixed-action-btn horizontal" style="bottom: 45px; right: 24px;">
             <!--Para os botões que chamam modal, adiciona-se a classe modal-trigger e tag a, e no hrel insere-se o ID da modal a chamar-->
-            <a class="btn-floating btn-large blue modal-trigger" id="mailBtn" href="#mailModal">
+            <a class="btn-floating btn-large modal-trigger" id="mailBtn" href="#mailModal">
                 <i class="large material-icons">email</i>
             </a>
             <a class="btn-floating btn-large red" id="topBtn" href="#menu-top">
@@ -95,5 +121,4 @@
         <script type="text/javascript" src="js/materialize.min.js"></script>
         <script type="text/javascript" src="js/document.js"></script>
     </body>
-
 </html>
