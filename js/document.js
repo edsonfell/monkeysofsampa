@@ -30,6 +30,11 @@ $(document).ready(function () {
 
     // executa a modal 
     $('.modal-trigger').leanModal();
+    
+    // Imagens página de projetos
+     $(document).ready(function(){
+    $('.materialboxed').materialbox();
+  });
 
 
 });
