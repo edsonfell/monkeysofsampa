@@ -44,10 +44,13 @@
 <!--BTN PARA MODAL-->
 <div class="fixed-action-btn horizontal" style="bottom: 45px; right: 24px;">
     <!--Para os botões que chamam modal, adiciona-se a classe modal-trigger e tag a, e no hrel insere-se o ID da modal a chamar-->
-    <a class="btn-floating btn-large modal-trigger" id="mailBtn" href="#mail-modal">
+
+    <a class="btn tooltipped btn-floating btn-large modal-trigger" data-position="top" data-delay="30"
+       data-tooltip="Contato" id="mailBtn" href="#mail-modal">
         <i class="large material-icons">email</i>
     </a>
-    <a class="btn-floating btn-large red" id="topBtn" href="#menu-top">
+    <a class="btn tooltipped btn-floating btn-large red" data-position="left" data-delay="30"
+       data-tooltip="Voltar para o topo" id="topBtn" href="#menu-top">
         <i class="material-icons">navigation</i>
     </a>
 </div>

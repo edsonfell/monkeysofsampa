@@ -11,6 +11,7 @@ $(document).ready(function () {
 
     // executa a modal
     $('.modal-trigger').leanModal();
+
 });
 
 function backToTop() {
