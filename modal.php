@@ -1,7 +1,7 @@
 <!--MODAL-->
 <div id="mail-modal" class="modal">
     <div class="modal-content modal-background">
-        <form name="form-mail" action="#" method="POST" class="form-horizontal">
+        <form name="form-mail" action="mail.php" method="POST" class="form-horizontal" id="form-mail">
 
             <div class="row">
                 <h4 class="center-align white-text thin">Fale conosco</h4>
@@ -22,7 +22,7 @@
 
             <div class="row">
                 <div class="row input-field col s12 m12 l12">
-                    <textarea name="assunto" class="materialize-textarea textarea-color white-text" required></textarea>
+                    <textarea name="mensagem" class="materialize-textarea textarea-color white-text" required></textarea>
                     <label for="textarea">Mensagem</label>
                 </div>
             </div>

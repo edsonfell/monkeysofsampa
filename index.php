@@ -69,7 +69,7 @@
                     <a href="pages/aulas.php" class="zoom"><img class="icon-medium" src="img/runner.png"></a>
                 </div>
                 <h3 class="thin center-align title">Aulas</h3>
-                <h5 class="white-text thin justify">Para aqueles que estão cansado de atividades comuns e pouco
+                <h5 class="white-text thin justify">Para aqueles que estão cansados de atividades comuns e pouco
                     desafiadoras, o nosso Parkour te ajuda a trabalhar o seu físico e também a sua mente, servindo como
                     uma
                     prática para levar junto com a academia, meditação, yoga e para sua vida. Faça sua matrícula hoje
@@ -81,8 +81,8 @@
                 </div>
                 <h3 class="thin center-align title">Eventos</h3>
                 <h5 class="white-text thin justify">Precisa de uma apresentação impactante para seu evento
-                    corporativo ou social? Produzimos apresentações de acordo com a sua necessidade, seja em duração,
-                    espaço ou publico alvo. O Monkeys of Sampa é um grupo certo independente da sua necessidade.</h5>
+                    corporativo ou social? Realizamos apresentações de acordo com a sua necessidade, seja em duração,
+                    espaço ou publico alvo. O Monkeys of Sampa é o grupo certo independente da sua necessidade.</h5>
             </div>
         </div>
     </div>
