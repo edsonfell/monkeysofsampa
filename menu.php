@@ -39,9 +39,9 @@ if ($pagina == "index") { ?>
                 </ul>
                 <ul class="side-nav" id="mobile-demo">
                     <li><a href="index.php" class="thin white-text">Início</a></li>
-                    <li><a href="aulas.php" class="thin">Aulas</a></li>
-                    <li><a href="midia.php" class="thin">Mídia</a></li>
-                    <li><a href="projetos.php" class="thin">Projetos</a></li>
+                    <li><a href="aulas.php" class="thin white-text">Aulas</a></li>
+                    <li><a href="midia.php" class="thin white-text">Mídia</a></li>
+                    <li><a href="projetos.php" class="thin white-text">Projetos</a></li>
                 </ul>
             </div>
         </nav>
