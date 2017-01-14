@@ -87,8 +87,8 @@ img.logo-menu {
 }
 
 .icon-medium {
-    width: 128px;
-    height: 128px;
+    max-width: 128px;
+    max-height: 128px;
 }
 
 .icon-medium:hover {
@@ -111,7 +111,7 @@ img.logo-menu {
         width: 100%;
     }
     .icon-medium{
-        width: 70%;
+        width: 100%;
     }
 }
 
@@ -122,7 +122,7 @@ img.logo-menu {
 }
 
 .title {
-    margin-top: 5px;
+    margin-top: 0px;
 }
 
 /*Carregamento Btn Top*/

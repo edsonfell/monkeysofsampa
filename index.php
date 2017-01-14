@@ -64,7 +64,7 @@
 
     <div class="centralizar">
         <div class="row">
-            <div class="col s6 m6 l6">
+            <div class="col s12 m6 l6">
                 <div class="center-align">
                     <a href="pages/aulas.php" class="zoom"><img class="icon-medium" src="img/runner.png"></a>
                 </div>
@@ -75,7 +75,7 @@
                     prática para levar junto com a academia, meditação, yoga e para sua vida. Faça sua matrícula hoje
                     mesmo!</h5>
             </div>
-            <div class="col s6 m6 l6">
+            <div class="col s12 m6 l6">
                 <div class="center-align">
                     <a class="modal-trigger" href="#mail-modal"><img class="icon-medium" src="img/eventos.png"></a>
                 </div>

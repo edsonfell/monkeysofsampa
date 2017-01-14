@@ -17,6 +17,7 @@ if ($pagina == "index") { ?>
                     <li><a href="pages/projetos.php" class="thin">Projetos</a></li>
                 </ul>
                 <ul class="side-nav" id="mobile-demo">
+                    <li><a href="index.php" class="thin white-text">Início</a></li>
                     <li><a href="pages/aulas.php" class="thin white-text">Aulas</a></li>
                     <li><a href="pages/midia.php" class="thin white-text">Mídia</a></li>
                     <li><a href="pages/projetos.php" class="thin white-text">Projetos</a></li>
@@ -37,6 +38,7 @@ if ($pagina == "index") { ?>
                     <li><a href="projetos.php" class="thin">Projetos</a></li>
                 </ul>
                 <ul class="side-nav" id="mobile-demo">
+                    <li><a href="index.php" class="thin white-text">Início</a></li>
                     <li><a href="aulas.php" class="thin">Aulas</a></li>
                     <li><a href="midia.php" class="thin">Mídia</a></li>
                     <li><a href="projetos.php" class="thin">Projetos</a></li>
