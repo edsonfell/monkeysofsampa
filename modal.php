@@ -4,8 +4,7 @@
         <form name="form-mail" action="mail.php" method="POST" class="form-horizontal" id="form-mail">
 
             <div class="row">
-                <h4 class="center-align white-text thin">Fale conosco</h4>
-                <div class="divider grey"></div>
+                <h5 class="center-align white-text thin">Fale conosco</h5>
 
                 <div class="conteudo">
                     <div class="input-field col s12 m6 l6">
