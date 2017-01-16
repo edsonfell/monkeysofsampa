@@ -13,6 +13,8 @@
     <script type="text/javascript" src="js/materialize.min.js"></script>
     <script type="text/javascript" src="js/document.js"></script>
     <link type="text/css" rel="stylesheet" href="css/style.css" media="screen,projection"/>
+    <link rel="icon" type="image/png" href="img/favicon.ico">
+    <title>Home | Monkeys Of Sampa</title>
 </head>
 
 
