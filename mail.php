@@ -2,8 +2,8 @@
 
 // Inclui o arquivo class.phpmailer.php localizado na pasta class
 //require_once("PHPMailer/class.phpmailer.php");
-require_once("phpmailer/class.phpmailer.php");
-require_once("phpmailer/class.smtp.php");
+require_once("/home/u651530089/public_html/PHPMailer/class.phpmailer.php");
+require_once("/home/u651530089/public_html/PHPMailer/class.smtp.php");
 
 $email = $_POST["email"];
 $assunto = $_POST["assunto"];
@@ -12,8 +12,6 @@ $mensagem = $_POST["mensagem"];
 // Inicia a classe PHPMailer
 $mail = new PHPMailer(true);
 
-// Define os dados do servidor e tipo de conexão
-// =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 $mail->IsSMTP(); // Define que a mensagem será SMTP
 
 try {
@@ -24,31 +22,30 @@ try {
     $mail->Password = 'Sampamonkey22'; // Senha do servidor SMTP (senha do email usado)
 
     //Define o remetente
-    // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-    $mail->SetFrom('contato@monkeysofsampa.com.br', 'Contato Monkeys of Sampa'); //Seu e-mail
-    $mail->AddReplyTo('contato@monkeysofsampa.com.br', 'Contato Monkeys of Sampa'); //Seu e-mail
+    $mail->AddReplyTo($email, $email); //Seu e-mail
+    $mail->SetFrom('contato@monkeysofsampa.com.br', 'Contato via site'); //Seu e-mail
     $mail->Subject = $assunto;//Assunto do e-mail
 
 
     //Define os destinatário(s)
-    //=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-    $mail->AddAddress($email, $email);
+    $mail->AddAddress('contato@monkeysofsampa.com.br', 'Contato Monkeys of Sampa');
 
     //Campos abaixo são opcionais
-    //=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
     $mail->AddCC('monkeys.sampa@outlook.com', 'Monkeys Outlook'); // Copia
     //$mail->AddBCC('destinatario_oculto@dominio.com.br', 'Destinatario2`'); // Cópia Oculta
     //$mail->AddAttachment('images/phpmailer.gif');      // Adicionar um anexo
 
 
     //Define o corpo do email
-    $mail->MsgHTML('<p>'.$mensagem.'<p>');
+    $nomeContato = '<p>FROM: '.$email.'</p><br>';
+    $mail->MsgHTML($nomeContato.'<p>'.$mensagem.'<p>');
 
     ////Caso queira colocar o conteudo de um arquivo utilize o método abaixo ao invés da mensagem no corpo do e-mail.
     //$mail->MsgHTML(file_get_contents('arquivo.html'));
 
     $mail->Send();
-    echo "Materialize.toast('E-mail enviado. Responderemos o mais rápido possível!', 4000)";
+    //return "<html>Materialize.toast('E-mail enviado. Responderemos o mais rápido possível!', 4000)</html>";
+    echo "<script>alert('E-mail enviado. Obrigado pelo contato!');location= './index.php'</script>";
 
     //caso apresente algum erro é apresentado abaixo com essa exceção.
 }catch (phpmailerException $e) {
