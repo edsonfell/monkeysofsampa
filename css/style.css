@@ -20,7 +20,7 @@ nav {
     margin-bottom: 20px;
 }
 
-.side-nav{
+.side-nav {
     background-color: #1E8BC3;
 }
 
@@ -52,6 +52,10 @@ blockquote {
 
 .nav-wrapper ul li a {
     padding: 12.5px 10px;
+}
+
+.menu {
+    margin-right: 50px;
 }
 
 img.logo-menu {
@@ -99,6 +103,12 @@ img.logo-menu {
     transition: .3s;
 }
 
+.icon-menu {
+    float: left;
+    margin-top: 3px;
+    margin-right: 10px;
+}
+
 .centralizar {
     margin: 0 auto;
     width: 700px;
@@ -106,12 +116,28 @@ img.logo-menu {
 
 /*Estilização para MOBILE*/
 
-@media (max-width: 830px) {
+@media (max-width: 992px) {
     .centralizar {
         width: 100%;
     }
-    .icon-medium{
+
+    .icon-medium {
         width: 100%;
+    }
+
+    .nav-wrapper ul li a {
+        overflow: hidden;
+        padding: 0;
+        padding-left: 10px;
+    }
+    .menu{
+        margin: 0;
+        padding-top: 30px;
+    }
+
+    a.button-collapse{
+        margin-top: 20px;
+        margin-left: 10px;
     }
 }
 
@@ -126,7 +152,7 @@ img.logo-menu {
 }
 
 /*Carregamento Btn Top*/
-#topBtn{
+#topBtn {
     display: none;
     margin-top: 5px;
 }
