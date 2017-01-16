@@ -11,18 +11,16 @@ if ($pagina == "index") { ?>
             <div class="nav-wrapper z-depth-1">
                 <a href="index.php" class="brand-logo center"><img class="logo-menu" src="img/logo-bar.png"></a>
                 <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-
-                <ul class="lista-menu right hide-on-med-and-down">
-                    <li><a href="pages/aulas.php" class="thin"><i class="icon-menu material-icons">perm_identity</i>Aulas</a></li>
-                    <li><a href="pages/midia.php" class="thin"><i class="icon-menu material-icons">play_circle_filled</i>Mídia</a></li>
-                    <li><a href="pages/projetos.php" class="thin"><i class="icon-menu material-icons">work</i>Projetos</a></li>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="pages/aulas.php" class="thin">Aulas</a></li>
+                    <li><a href="pages/midia.php" class="thin">Mídia</a></li>
+                    <li><a href="pages/projetos.php" class="thin">Projetos</a></li>
                 </ul>
-
-                <ul class="lista-menu side-nav" id="mobile-demo">
-                    <li><a href="index.php" class="thin white-text"><i class="icon-menu material-icons">store</i>Início</a></li>
-                    <li><a href="pages/aulas.php" class="thin white-text"><i class="icon-menu material-icons">perm_identity</i>Aulas</a></li>
-                    <li><a href="pages/midia.php" class="thin white-text"><i class="icon-menu material-icons">play_circle_filled</i>Mídia</a></li>
-                    <li><a href="pages/projetos.php" class="thin white-text"><i class="icon-menu material-icons">work</i>Projetos</a></li>
+                <ul class="side-nav" id="mobile-demo">
+                    <li><a href="index.php" class="thin white-text">Início</a></li>
+                    <li><a href="pages/aulas.php" class="thin white-text">Aulas</a></li>
+                    <li><a href="pages/midia.php" class="thin white-text">Mídia</a></li>
+                    <li><a href="pages/projetos.php" class="thin white-text">Projetos</a></li>
                 </ul>
             </div>
         </nav>
@@ -34,18 +32,16 @@ if ($pagina == "index") { ?>
             <div class="nav-wrapper z-depth-1">
                 <a href="../index.php" class="brand-logo center"><img class="logo-menu" src="../img/logo-bar.png"></a>
                 <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-
-                <ul class="lista-menu right hide-on-med-and-down">
-                    <li><a href="aulas.php" class="thin"><i class="icon-menu material-icons">perm_identity</i>Aulas</a></li>
-                    <li><a href="midia.php" class="thin"><i class="icon-menu material-icons">play_circle_filled</i>Mídia</a></li>
-                    <li><a href="projetos.php" class="thin"><i class="icon-menu material-icons">work</i>Projetos</a></li>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="aulas.php" class="thin">Aulas</a></li>
+                    <li><a href="midia.php" class="thin">Mídia</a></li>
+                    <li><a href="projetos.php" class="thin">Projetos</a></li>
                 </ul>
-
-                <ul class="lista-menu side-nav" id="mobile-demo">
-                    <li><a href="../index.php" class="thin white-text"><i class="icon-menu material-icons">store</i>Início</a></li>
-                    <li><a href="aulas.php" class="thin white-text"><i class="icon-menu material-icons">perm_identity</i>Aulas</a></li>
-                    <li><a href="midia.php" class="thin white-text"><i class="icon-menu material-icons">play_circle_filled</i>Mídia</a></li>
-                    <li><a href="projetos.php" class="thin white-text"><i class="icon-menu material-icons">work</i>Projetos</a></li>
+                <ul class="side-nav" id="mobile-demo">
+                    <li><a href="index.php" class="thin white-text">Início</a></li>
+                    <li><a href="aulas.php" class="thin white-text">Aulas</a></li>
+                    <li><a href="midia.php" class="thin white-text">Mídia</a></li>
+                    <li><a href="projetos.php" class="thin white-text">Projetos</a></li>
                 </ul>
             </div>
         </nav>
