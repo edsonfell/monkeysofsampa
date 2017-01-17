@@ -1,4 +1,3 @@
-
 $(document).ready(function () {
     $('.slider').slider({
         full_width: true,
@@ -11,6 +10,9 @@ $(document).ready(function () {
 
     // executa a modal
     $('.modal-trigger').leanModal();
+
+
+//    var pgurl = window.location.href.substr(window.location.href.lastIndexOf("/") + 1);
 
 });
 
@@ -32,3 +34,4 @@ function backToTop() {
         }, 500);
     });
 }
+

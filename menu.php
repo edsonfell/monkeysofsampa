@@ -19,7 +19,7 @@ if ($pagina == "index") { ?>
                 </ul>
 
                 <ul class="menu side-nav" id="mobile-demo">
-                    <li><a href="index" class="thin white-text"><i class="icon-menu material-icons">store</i>Início</a></li>
+                    <li class="active"><a href="index" class="thin white-text"><i class="icon-menu material-icons">store</i>Início</a></li>
                     <li><a href="pages/aulas" class="thin white-text"><i class="icon-menu material-icons">perm_identity</i>Aulas</a></li>
                     <li><a href="pages/midia" class="thin white-text"><i class="icon-menu material-icons">play_circle_filled</i>Mídia</a></li>
                     <li><a href="pages/projetos" class="thin white-text"><i class="icon-menu material-icons">work</i>Projetos</a></li>
@@ -37,16 +37,16 @@ if ($pagina == "index") { ?>
                 <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
 
                 <ul class="menu right hide-on-med-and-down">
-                    <li><a href="aulas" class="thin"><i class="icon-menu material-icons">perm_identity</i>Aulas</a></li>
-                    <li><a href="midia" class="thin"><i class="icon-menu material-icons">play_circle_filled</i>Mídia</a></li>
-                    <li><a href="projetos" class="thin"><i class="icon-menu material-icons">work</i>Projetos</a></li>
+                    <li <?php if($pagina == 'aulas'){echo 'class="active"';} ?>><a href="aulas" class="thin"><i class="icon-menu material-icons">perm_identity</i>Aulas</a></li>
+                    <li <?php if($pagina == 'midia'){echo 'class="active"';} ?>><a href="midia" class="thin"><i class="icon-menu material-icons">play_circle_filled</i>Mídia</a></li>
+                    <li <?php if($pagina == 'projetos'){echo 'class="active"';} ?>><a href="projetos" class="thin"><i class="icon-menu material-icons">work</i>Projetos</a></li>
                 </ul>
 
                 <ul class="menu side-nav" id="mobile-demo">
                     <li><a href="../index" class="thin white-text"><i class="icon-menu material-icons">store</i>Início</a></li>
-                    <li><a href="aulas" class="thin white-text"><i class="icon-menu material-icons">perm_identity</i>Aulas</a></li>
-                    <li><a href="midia" class="thin white-text"><i class="icon-menu material-icons">play_circle_filled</i>Mídia</a></li>
-                    <li><a href="projetos" class="thin white-text"><i class="icon-menu material-icons">work</i>Projetos</a></li>
+                    <li <?php if($pagina == 'aulas'){echo 'class="active"';} ?>><a href="aulas" class="thin white-text"><i class="icon-menu material-icons">perm_identity</i>Aulas</a></li>
+                    <li <?php if($pagina == 'midia'){echo 'class="active"';} ?>><a href="midia" class="thin white-text"><i class="icon-menu material-icons">play_circle_filled</i>Mídia</a></li>
+                    <li <?php if($pagina == 'projetos'){echo 'class="active"';} ?>><a href="projetos" class="thin white-text"><i class="icon-menu material-icons">work</i>Projetos</a></li>
                 </ul>
             </div>
         </nav>
